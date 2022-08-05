@@ -25,7 +25,16 @@ while (num <= 29) {
 let numb = 21;
 
 do {
-    console.log(num);
-    num++;
+    console.log(numb);
+    numb++;
 }
-while (num < 25);
+while (numb < 25);
+
+function showFM(text) {
+    console.log(text)
+    let num = 20;
+    return num
+}
+
+showFM('Hello world');
+console.log()
