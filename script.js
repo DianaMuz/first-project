@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 //const category = 'toys';
 
@@ -31,10 +31,19 @@ do {
 while (numb < 25);
 
 function showFM(text) {
-    console.log(text)
+    console.log(text);
     let num = 20;
-    return num
+    return num;
 }
 
 showFM('Hello world');
-console.log()
+console.log();
+
+function learnJS(lang, callback) {
+    console.log(`Я учу ${lang}`);
+    callback( );
+}
+
+learnJS('JavaScript', function() {
+    console.log('Я прошел этот урок!');
+});
